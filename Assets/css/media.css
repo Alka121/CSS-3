@@ -1,0 +1,96 @@
+/*mobile*/
+@media(max-width:768px){
+    header{
+        background-color: aqua;
+    }
+    header>nav>ul>li{
+        display:block;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    header>nav{
+        padding: 20px;
+        text-align: center;
+    }
+    .banner1{
+        background-color: gray;
+    }
+    .banner2{
+        background-image: url(../images/tab.png);
+        
+    }
+    .banner3{
+        background: linear-gradient(45deg, orange, white, green);
+    }
+    .mobile{
+        display:block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 1600px;
+        height:700px;
+        object-fit: cover;
+        font-size: 10px;
+        z-index: -1;
+    }
+    .tab{
+        display: none;
+    }
+    .desktop{
+        display:none;
+    }
+    .commonBanner{
+        text-align: center;
+        color: red;
+        font-size: 25px;
+        line-height:1;
+    }
+    
+}
+/*tab*/
+@media(min-width:769px) and (max-width:1024px){
+    header{
+        background-color: teal;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    header>nav{
+        padding:20px;
+        text-align:center;
+    }
+    .banner1{
+        background-color: aqua;
+    }
+    .banner2{
+        background-image: url(../images/tab.png);
+
+    }
+    .banner3{
+        background: linear-gradient(45deg, orange, white, green);
+    }
+    .mobile{
+        display: none;
+    }
+    .tab{
+        display: block;
+        width: 1600px;
+        height:700px;
+        object-fit: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index:-1;
+    }    
+    .desktop{
+        display: none;
+    }
+    .commonBanner{
+        text-align: center;
+        color:#000;
+        font-size: 20px;
+        line-height:1;
+    }
+    
+}
